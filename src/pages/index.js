@@ -31,7 +31,7 @@ const IndexPage = () => {
         maxWidth={'500px'}
         image={'/banner1.png'}
         title={'Marks Beauty Store'}
-        subtitle={'Discover Autumn Winter 2021'}
+        subtitle={'Discover your best products at an affordable price'}
         ctaText={'shop now'}
         ctaAction={goToShop}
       />
