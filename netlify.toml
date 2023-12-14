@@ -4,13 +4,16 @@
   publish = "public"
 
 [[plugins]]
-  package = "@netlify/plugin-gatsby"
+  package = "netlify-plugin-gatsby"
+
+[plugins.inputs]
+  enable = true
+
+[plugins.inputs.postBuild]
+  enable = true
 
 [[plugins]]
   package = "netlify-plugin-cypress"
 
-  [plugins.inputs.postBuild]
-    enable = true
-
-  [plugins.inputs]
-    enable = false
+[plugins.inputs]
+  enable = false
